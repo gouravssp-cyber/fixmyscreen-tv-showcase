@@ -51,29 +51,22 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Custom brand colors
-        "pacific-blue": {
-          DEFAULT: "hsl(var(--pacific-blue))",
-          light: "hsl(var(--pacific-blue-light))",
-          dark: "hsl(var(--pacific-blue-dark))",
+        // Blue Theme Colors
+        "light-blue": {
+          DEFAULT: "hsl(var(--light-blue))",
+          lighter: "hsl(var(--light-blue-lighter))",
         },
-        honeydew: {
-          DEFAULT: "hsl(var(--honeydew))",
-          light: "hsl(var(--honeydew-light))",
-          dark: "hsl(var(--honeydew-dark))",
+        "medium-blue": {
+          DEFAULT: "hsl(var(--medium-blue))",
+          light: "hsl(var(--medium-blue-light))",
         },
-        "vanilla-custard": {
-          DEFAULT: "hsl(var(--vanilla-custard))",
-          light: "hsl(var(--vanilla-custard-light))",
+        "dark-blue": {
+          DEFAULT: "hsl(var(--dark-blue))",
+          light: "hsl(var(--dark-blue-light))",
         },
-        "tangerine-dream": {
-          DEFAULT: "hsl(var(--tangerine-dream))",
-          light: "hsl(var(--tangerine-dream-light))",
-        },
-        "sandy-brown": {
-          DEFAULT: "hsl(var(--sandy-brown))",
-          light: "hsl(var(--sandy-brown-light))",
-          dark: "hsl(var(--sandy-brown-dark))",
+        "deep-blue": {
+          DEFAULT: "hsl(var(--deep-blue))",
+          dark: "hsl(var(--deep-blue-dark))",
         },
       },
       borderRadius: {
