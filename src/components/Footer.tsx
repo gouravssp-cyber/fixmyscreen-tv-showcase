@@ -4,19 +4,19 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { label: 'Home', href: '#home' },
-    { label: 'About Us', href: '#about' },
-    { label: 'Services', href: '#services' },
-    { label: 'Gallery', href: '#gallery' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Home', href: '/' },
+    { label: 'About Us', href: '/about' },
+    { label: 'Services', href: '/services' },
+    { label: 'Gallery', href: '/gallery' },
+    { label: 'Contact', href: '/contact' },
   ];
 
   const services = [
-    { label: 'LED TV Repair', href: '#services' },
-    { label: 'LCD TV Repair', href: '#services' },
-    { label: 'Smart TV Repair', href: '#services' },
-    { label: 'Wall Mounting', href: '#services' },
-    { label: 'Doorstep Service', href: '#services' },
+    { label: 'LED TV Repair', href: '/services' },
+    { label: 'LCD TV Repair', href: '/services' },
+    { label: 'Smart TV Repair', href: '/services' },
+    { label: 'Wall Mounting', href: '/services' },
+    { label: 'Doorstep Service', href: '/services' },
   ];
 
   const socialLinks = [

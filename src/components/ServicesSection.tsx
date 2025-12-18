@@ -16,7 +16,7 @@ const services = [
     title: 'LED TV Repair',
     description: 'Expert repair for all LED TV brands including backlight, panel, and motherboard issues.',
     features: ['Backlight Repair', 'Panel Replacement', 'Power Supply Fix'],
-    color: 'from-pacific-blue to-pacific-blue-light',
+    color: 'from-dark-blue to-medium-blue',
     span: 'col-span-1 md:col-span-2 lg:col-span-1',
   },
   {
@@ -24,7 +24,7 @@ const services = [
     title: 'LCD TV Repair',
     description: 'Comprehensive LCD TV repair services for display issues, dead pixels, and circuit problems.',
     features: ['Display Repair', 'Circuit Board Fix', 'Component Replacement'],
-    color: 'from-tangerine-dream to-sandy-brown',
+    color: 'from-medium-blue to-light-blue',
     span: 'col-span-1',
   },
   {
@@ -32,7 +32,7 @@ const services = [
     title: 'Smart TV Repair',
     description: 'Specialized repair for Smart TVs including software, connectivity, and hardware issues.',
     features: ['Software Update', 'WiFi Issues', 'App Problems'],
-    color: 'from-pacific-blue-light to-primary',
+    color: 'from-deep-blue to-dark-blue',
     span: 'col-span-1',
   },
   {
@@ -40,7 +40,7 @@ const services = [
     title: 'TV Wall Installation',
     description: 'Professional wall mounting service with proper cable management and alignment.',
     features: ['Wall Mounting', 'Cable Management', 'Bracket Installation'],
-    color: 'from-sandy-brown to-tangerine-dream',
+    color: 'from-light-blue to-medium-blue',
     span: 'col-span-1 md:col-span-2 lg:col-span-1',
   },
   {
@@ -48,7 +48,7 @@ const services = [
     title: 'Doorstep Service',
     description: 'Convenient home service - our technicians come to you for diagnosis and repair.',
     features: ['Home Visit', 'On-site Repair', 'Same Day Service'],
-    color: 'from-pacific-blue to-tangerine-dream',
+    color: 'from-dark-blue to-deep-blue',
     span: 'col-span-1',
   },
   {
@@ -56,7 +56,7 @@ const services = [
     title: 'Refurbished TVs',
     description: 'Quality refurbished TVs and genuine accessories at affordable prices.',
     features: ['Tested & Certified', 'Warranty Included', 'Best Prices'],
-    color: 'from-tangerine-dream to-pacific-blue-light',
+    color: 'from-medium-blue to-dark-blue',
     span: 'col-span-1',
   },
 ];
