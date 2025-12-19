@@ -9,6 +9,12 @@ import {
   Package,
   ArrowRight
 } from 'lucide-react';
+import serviceLed from '@/assets/service-led.jpg';
+import serviceLcd from '@/assets/service-lcd.jpg';
+import serviceSmart from '@/assets/service-smart.jpg';
+import serviceWall from '@/assets/service-wall.jpg';
+import serviceDoorstep from '@/assets/service-doorstep.jpg';
+import serviceRefurbished from '@/assets/service-refurbished.jpg';
 
 const services = [
   {
@@ -18,6 +24,7 @@ const services = [
     features: ['Backlight Repair', 'Panel Replacement', 'Power Supply Fix'],
     color: 'from-dark-blue to-medium-blue',
     span: 'col-span-1 md:col-span-2 lg:col-span-1',
+    image: serviceLed,
   },
   {
     icon: Tv2,
@@ -26,6 +33,7 @@ const services = [
     features: ['Display Repair', 'Circuit Board Fix', 'Component Replacement'],
     color: 'from-medium-blue to-light-blue',
     span: 'col-span-1',
+    image: serviceLcd,
   },
   {
     icon: Smartphone,
@@ -34,6 +42,7 @@ const services = [
     features: ['Software Update', 'WiFi Issues', 'App Problems'],
     color: 'from-deep-blue to-dark-blue',
     span: 'col-span-1',
+    image: serviceSmart,
   },
   {
     icon: Wallpaper,
@@ -42,6 +51,7 @@ const services = [
     features: ['Wall Mounting', 'Cable Management', 'Bracket Installation'],
     color: 'from-light-blue to-medium-blue',
     span: 'col-span-1 md:col-span-2 lg:col-span-1',
+    image: serviceWall,
   },
   {
     icon: Home,
@@ -50,6 +60,7 @@ const services = [
     features: ['Home Visit', 'On-site Repair', 'Same Day Service'],
     color: 'from-dark-blue to-deep-blue',
     span: 'col-span-1',
+    image: serviceDoorstep,
   },
   {
     icon: Package,
@@ -58,6 +69,7 @@ const services = [
     features: ['Tested & Certified', 'Warranty Included', 'Best Prices'],
     color: 'from-medium-blue to-dark-blue',
     span: 'col-span-1',
+    image: serviceRefurbished,
   },
 ];
 
@@ -99,8 +111,16 @@ const ServicesSection = () => {
               className={`${service.span} group relative overflow-hidden rounded-2xl bg-card border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-medium`}
             >
               <div className="p-6 md:p-8">
-                {/* Gradient Background */}
-                <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl ${service.color} opacity-10 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:opacity-20 transition-opacity`} />
+                {/* Service Image */}
+                <div className="relative w-full h-40 rounded-xl overflow-hidden mb-5">
+                  <img 
+                    src={service.image} 
+                    alt={`${service.title} - Professional TV repair service`}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    loading="lazy"
+                  />
+                  <div className={`absolute inset-0 bg-gradient-to-t ${service.color} opacity-30`} />
+                </div>
                 
                 {/* Icon */}
                 <div className={`relative w-14 h-14 rounded-xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-5 shadow-soft`}>
